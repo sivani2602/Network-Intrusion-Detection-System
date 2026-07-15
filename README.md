@@ -1,8 +1,8 @@
-Network Intrusion Detection System using Machine Learning
+**Network Intrusion Detection System using Machine Learning**
 
 The Network Intrusion Detection System (NIDS) is a Machine Learning-based cybersecurity application designed to identify malicious network activities by analyzing network traffic data. The model classifies network connections as either **Normal** or **Attack**, helping detect potential cyber attacks at an early stage.This project demonstrates the complete Machine Learning pipeline, including data preprocessing, feature engineering, model training, and performance evaluation.
 
-Objectives
+**Objectives**
 
 1. Detect malicious network traffic using Machine Learning.
 2. Perform data preprocessing and feature encoding.
@@ -10,7 +10,7 @@ Objectives
 4. Evaluate the model using multiple performance metrics.
 5. Visualize model performance.
 
-Features
+**Features**
 
 - Data Cleaning and Preprocessing
 - Exploratory Data Analysis (EDA)
@@ -20,7 +20,7 @@ Features
 - Accuracy, Precision, Recall and F1-Score Evaluation
 - Feature Importance Analysis
 
-Technologies Used
+**Technologies Used**
 
 > Python
 > Pandas
@@ -29,13 +29,13 @@ Technologies Used
 > Seaborn
 > Scikit-learn
 
-Machine learning model
+**Machine learning model**
 
 **Algorithm Used:**
 
 Random Forest Classifier - Random Forest was selected because it provides high classification accuracy, handles large datasets efficiently, and reduces overfitting through ensemble learning.
 
-Workflow
+**Workflow**
 
 1. Import Dataset
 2. Data Cleaning
@@ -47,7 +47,7 @@ Workflow
 8. Performance Evaluation
 9. Visualization of Results
 
-Evaluation Metrics
+**Evaluation Metrics**
 
 The trained model is evaluated using:
 
@@ -57,7 +57,7 @@ The trained model is evaluated using:
 - F1-Score
 - Confusion Matrix
 
-Project Structure
+**Project Structure**
 
 Network-Intrusion-Detection-System/
 
@@ -75,11 +75,11 @@ Network-Intrusion-Detection-System/
 
 ├── README.md
 
-Results
+**Results**
 
 The Random Forest model successfully classified normal and malicious network traffic with high prediction accuracy.The evaluation demonstrates that Machine Learning can effectively assist in detecting network intrusions and improve cybersecurity systems
 
-Future Improvements
+**Future Improvements**
 
 - Real-time packet monitoring
 - Deep Learning based intrusion detection
